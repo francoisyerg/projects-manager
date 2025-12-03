@@ -95,30 +95,30 @@ return  [
      ],
     'task_priorities'
      => [
-         'none'
+         'critical'
           => [
-              'label' => 'Sans priorité',
-              'color' => '#adb5bd',
-          ],
-         'low'
-          => [
-              'label' => 'Faible',
-              'color' => '#17a2b8',
-          ],
-         'medium'
-          => [
-              'label' => 'Moyenne',
-              'color' => '#ffc107',
+              'label' => 'Critique',
+              'color' => '#dc3545',
           ],
          'high'
           => [
               'label' => 'Haute',
               'color' => '#fd7e14',
           ],
-         'critical'
+         'medium'
           => [
-              'label' => 'Critique',
-              'color' => '#dc3545',
+              'label' => 'Moyenne',
+              'color' => '#ffc107',
+          ],
+         'low'
+          => [
+              'label' => 'Faible',
+              'color' => '#17a2b8',
+          ],
+         'none'
+          => [
+              'label' => 'Sans priorité',
+              'color' => '#adb5bd',
           ],
      ],
     'default_task_status' => 'later',
