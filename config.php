@@ -2,10 +2,8 @@
 
 return  [
     'vhosts_file' => 'C:/wamp64/bin/apache/apache2.4.62.1/conf/extra/httpd-vhosts.conf',
-    'projects_file' => 'C:/Users/Francois/Projets/projects.json',
     'hosts_file' => 'C:/Windows/System32/drivers/etc/hosts',
-    'base_projects_path' => 'C:/Users/Francois/Projets',
-    'project_details_filename' => 'project-details.json',
+    'base_projects_path' => 'C:/wamp64/www',
     'database'
      => [
          'host' => 'localhost',
@@ -18,12 +16,12 @@ return  [
      ],
     'installation'
      => [
-         'is_installed' => true,
+         'is_installed' => false,
      ],
     'phpmyadmin_url' => '/phpmyadmin/',
-    'editor_type' => 'tinymce',
+    'editor_type' => 'textarea',
     'editor_placeholder' => 'Ajoutez vos notes de projet ici...',
-    'tinymce_api_key' => 'tafsbhd5fjvwqy3rnsk522zww6k6isqsz7t81fv47b9hmjd7',
+    'tinymce_api_key' => '',
     'tinymce_cdn_url' => 'https://cdn.tiny.cloud/1/',
     'php_versions'
      => [
